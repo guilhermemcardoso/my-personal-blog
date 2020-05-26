@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+<article class="post">
+	<h1 class="about-title">{{ site.author }}</h1>
+	<div class="about-container">
+		<div class="about-left-col">
+			<div class="profile-image-container">
+				<img
+					src="{{ '/assets/images/profile.jpeg' | relative_url }}"
+					class="profile-image"
+				/>
+			</div>
+			<div class="contact-container">
+				<h2>Contact</h2>
+				{%- include social.html -%}
+			</div>
+		</div>
+		<div class="about-right-col">
+			<p class="intro">
+				Hi, my name is Guilherme Muniz Cardoso and I'm a software
+				engineer focused in mobile and frontend applications. I've been
+				working with native Android and React Native aplications for
+				almost 4 years. Really curious and excited about JavaScript and
+				React, always trying to learn something new.
+				<br /><br />
+				Currently, I'm learning other technologies that make up the web
+				development process and trying to develop new personal projects
+				using them. This blog will help me organize my studies and share
+				the knowledge acquired.
+			</p>
+			<h2 class="tech-title">Main Technologies</h2>
+			<div class="tech-container">
+				<div class="tech-item">
+					<img
+						src="{{ '/assets/images/html5.svg' | relative_url }}"
+						class="tech-icon"
+					/>
+					<p class="tech-name">HTML 5</p>
+				</div>
+				<div class="tech-item">
+					<img
+						src="{{ '/assets/images/css.svg' | relative_url }}"
+						class="tech-icon"
+					/>
+					<p class="tech-name">CSS 3</p>
+				</div>
+				<div class="tech-item">
+					<img
+						src="{{ '/assets/images/javascript.svg' | relative_url }}"
+						class="tech-icon"
+					/>
+					<p class="tech-name">JavaScript</p>
+				</div>
+				<div class="tech-item">
+					<img
+						src="{{ '/assets/images/nodejs.svg' | relative_url }}"
+						class="tech-icon"
+					/>
+					<p class="tech-name">NodeJS</p>
+				</div>
+				<div class="tech-item">
+					<img
+						src="{{ '/assets/images/react.svg' | relative_url }}"
+						class="tech-icon"
+					/>
+					<p class="tech-name">React</p>
+				</div>
+				<div class="tech-item">
+					<img
+						src="{{ '/assets/images/redux.svg' | relative_url }}"
+						class="tech-icon"
+					/>
+					<p class="tech-name">Redux</p>
+				</div>
+				<div class="tech-item">
+					<img
+						src="{{ '/assets/images/redux-saga.svg' | relative_url }}"
+						class="tech-icon"
+					/>
+					<p class="tech-name">Redux-saga</p>
+				</div>
+				<div class="tech-item">
+					<img
+						src="{{ '/assets/images/bootstrap.svg' | relative_url }}"
+						class="tech-icon"
+					/>
+					<p class="tech-name">Bootstrap</p>
+				</div>
+				<div class="tech-item">
+					<img
+						src="{{ '/assets/images/firebase.svg' | relative_url }}"
+						class="tech-icon"
+					/>
+					<p class="tech-name">Firebase</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>

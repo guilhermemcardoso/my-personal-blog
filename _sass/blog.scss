@@ -1,0 +1,22 @@
+.post-title {
+    margin-bottom: 30px;
+}
+
+.post-list > li {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #C2C2C2;
+}
+
+.post-list > li > a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.post-list > li:hover {
+    background-color: #C2C2C2;
+}
+
+.post-list > li > a > h3 {
+    margin-bottom: 0;
+}

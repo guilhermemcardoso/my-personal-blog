@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+	{%- include head.html -%}
+
+	<body>
+		{%- include header.html -%}
+
+		<main class="home-container" aria-label="Content">
+			<div class="home-wrapper">
+				<h1 class="post-title home-title">{{ site.author }}</h1>
+				<h2 class="post-title home-subtitle">{{ site.role }}</h2>
+				{%- include contact.html -%}
+			</div>
+		</main>
+
+		{%- include footer.html -%}
+	</body>
+</html>
