@@ -25,8 +25,8 @@ author: Guilherme Cardoso
 role: Software Engineer
 description: >- # this means to ignore newlines until "baseurl:"
   I'm learning and sharing some knowledge about CSS, HTML, React and other web development technologies.
-baseurl: "/my-personal-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.gmcardoso.me" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:day/:title:output_ext
 twitter_username: gmcardos0
 github_username:  guilhermemcardoso
